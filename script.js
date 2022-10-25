@@ -2,7 +2,7 @@ function carregar(){
 var msg = window.document.getElementById('msg')
 var img = window.document.getElementById('imagem')
 var data = new Date()
-var hora = 18 //data.getHours()
+var hora = data.getHours()
 msg.innerHTML = `Agora são ${hora} horas`
 
 
@@ -17,7 +17,7 @@ if(hora >= 6 && hora < 12) {
     document.body.style.background = '#b9846f'
 
 } else  if (hora >= 18 && hora <= 23) {
-    // Boa noite!
+    // Boa noite!R
     img.src = 'img/anoitecer.jpg'
     document.body.style.background = '#515154'
 
