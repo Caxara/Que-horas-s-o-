@@ -8,22 +8,22 @@ msg.innerHTML = `Agora são ${hora} horas`
 
 if(hora >= 6 && hora < 12) {
     //Bom dia!
-    img.src = 'amanhecer.jpg'
+    img.src = 'img/amanhecer.jpg'
     document.body.style.background = '#e2cd9f'
 
 } else if(hora >= 12 && hora < 18) {
     //Boa tarde!
-    img.src = 'entardecer.jpg'
+    img.src = 'img/entardecer.jpg'
     document.body.style.background = '#b9846f'
 
 } else  if (hora >= 18 && hora <= 23) {
     // Boa noite!
-    img.src = 'anoitecer.jpg'
+    img.src = 'img/anoitecer.jpg'
     document.body.style.background = '#515154'
 
 }else {
     //Boa madrugada
-    img.src ='madrugada.jpg'
+    img.src ='img/madrugada.jpg'
     document.body.style.background = 'black'
 }
 
