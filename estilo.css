@@ -13,6 +13,7 @@ section {
     padding: 15px;
     width: 500px;
     margin: auto;
+    font-family: 'Courier New', Courier, monospace;
     box-shadow: 5px 10px rgba(0, 0, 0, 0.363);
 
 }
