@@ -1,6 +1,6 @@
 body {
     background: rgb(0, 200, 255);
-    font: normal 15pt Arial;
+    /*font: normal 15pt Arial;*/
 }
 header {
     color: white;
@@ -13,7 +13,7 @@ section {
     padding: 15px;
     width: 500px;
     margin: auto;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'kdam thmor', sans-serif;
     box-shadow: 5px 10px rgba(0, 0, 0, 0.363);
 
 }
